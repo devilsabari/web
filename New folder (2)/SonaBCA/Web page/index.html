@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>sonacas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sonacas.css'>
+    <script src='sonacas.css'></script>
+
+    
+</head>
+<body>
+      
+    <img class="logo" src="D:\web\LOGO\4.jpeg"width="230px" height="95px" align="left">
+    <img class="logo" src="D:\web\LOGO\2.jpeg"width="170px" height="100px" align="right">
+    <h1 align="center">DEPARTMENT OF COMPUTER APPLICATIONS</h1>
+    <br>
+    <br>
+    <div id="sona">
+      <ul>
+          
+          <li><a href="file:///D:/web/Web%20page/sonacasmain.htmll"><font color="red"><b>HOME</b></font></a></li></font>
+          <li><a href="file:///D:/web/Web%20page/Assocation%20member.html"><font color="red"><b>ASSOCIATION MEMBERS</b></font></a></li>
+          <li><a href="file:///D:/web/Web%20page/clubscas.html"><font color="red"><b>CLUBS</b></font></a></li>
+          <li><a href="file:///D:/web/Web%20page/photomain.html"><font color="red"><b>PHOTOS</b></font></a></li>
+          <li><a href="file:///D:/web/Web%20page/contactmain.html"><font color="red"><b>CONTACT</b></font></a></li>
+          
+          
+          </ul>
+          </div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+.logo {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  max-height:500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.image{
+   vertical-align: middle; 
+    padding: 30px;
+    /* margin-top: 60px; */
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="D:\web\image/IMG-20220721-WA0015.jpg" style="width:100%" height="570">
+</div>
+
+<div class="mySlides fade">
+
+  <img src="D:\web\image/IMG-20220721-WA0025.jpg" style="width:100%" height="570">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="D:\web\image/IMG-20220721-WA0017.jpg" style="width:100%" height="570">
+
+</div>
+
+<div class="mySlides fade">
+
+    <img src="D:\web\image/IMG-20220721-WA0026.jpg" style="width:100%" height="570"> 
+    
+    </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+<br>
+<br>
+        <div class="container"> 
+          <div class ="row" >
+            <div class="col-4 image" style="background-color:rgb(176, 160, 160)" >
+              
+        
+        <img src="D:\web\LOGO/3.jpeg" width="360px" height="265px" style="float: right; "/>
+        
+            </div> 
+            <div class="col-8"  >
+    
+              <h1 class="cont"><font color="blue">About the Institute</font></h1>
+          <p style="font-size:20px" align="justify" ><b>"Sona College of Arts and Science"</b> a new a gem in the crown of the Sona Group of Institutions, 
+            serves the society by offering quality education and promoting research and development activities.
+            The college aims at producing leaders who will transform the society and establish themselves as quality human resources.
+             The college aspires to emerge as a centre for excellence in Higher Education and impart holistic education for intellectual and physical development,
+             and social and cultural sensitivity that will empower every student to be successful in their chosen career. 
+             Being a part of Sona group, which has a long standing tradition for excellence in research and scholarship,
+             Sona College of Arts and Science has the most advanced facilities for the pursuit of higher learning and research ambience.</p>    
+        </div>
+          </div>
+        </div>
+        <div class="container"> 
+          <div class ="row" >
+            <div class="col-4 image" style="background-color:rgb(176, 160, 160)" >
+              <img src="D:\web\LOGO/1.jpeg" width="360px" height="265" style="float: right; "/>
+        
+            </div> 
+            <div class="col-8"  >
+              <br>
+              <br>
+              <h1 class="cont"><font color="blue">About the Department</font></h1>
+              <p style="font-size:20px" align="justify"><b>Department of Computer Applications</b> was started in the year 2019.
+                The department Prepares students for lifelong personal and professional development that enable them to exercise the leadership and make everlasting contributions in their disciplines. 
+                <br> 
+                The department provides the educational resources to keep pace with developments in the field. 
+                Magnify our positive impact in serving regional, state, national, and global needs by building mutually beneficial linkages with industry, institutions, community and constituencies.
+           </p>
+        </div>
+          </div>
+        </div>
+        <div class="container"> 
+          <div class ="row" >
+            <div class="col-4 image" style="background-color:rgb(176, 160, 160)" >
+              <img src="D:\web\LOGO/2.jpeg"width="360px" height="265px" style="float: right; "/>  
+              <div>
+                <video width="400" controls style="padding: 25px;">
+       
+                  <source src="D:\web\LOGO/1659425806347.mp4">
+              </video> 
+              </div>
+                 
+            </div> 
+            <div class="col-8"  >
+              <br>
+              <br>
+              <h1 class="cont"><font color="blue">About the Association</font></h1>
+              <p style="font-size:20px" align="justify"><b>Tech Vista</b> was started in the year 2021.The techvista was the name of association it was created by the <b>BCA department</b>
+                This programme has started with full of excitement and dedication by the BCA department. The session was started with warm welcoming everyone by <b>Mrs. B. Mythreyee</b>, AP / BCA (Association Coordinator). 
+                The Chief Guest and Principal are honored with the memento. Next, Our Department<b> HOD Dr. S. Mohanapriya </b>gave the keynote address and reported about our student achievements. 
+                After, our principal sir delivered the presidential address. He always encourages and motivates our students towards success.  
+                The chief guest had started his inaugural speech by wishing both the students and staff members. He told that this is the first meet with the students after online mode of education.  
+                He insisted students to accept the challenges of life and education move forward towards success. Additionally, he spoke about emerging career opportunities in IT Field.  After taking oath, he honor the club members. 
+                Further, He revealed the logo of <b>TECHVISTA </b>association. Our Chief Guest and Principal sir had very much appreciated the students <b>Pugalendhi and Obuliganesh from III BCA </b> who created the video of <b>TECHVISTA Logo</b></p>
+        </div>
+          </div>
+        </div>
+    <div id="cas">
+      <br>
+    <address><b><font color="white">Address</b><br>
+        <p font-size="15px">Junction Mind Road,<br>
+        Sona Nagar,<br>
+        Salem,Tamil Nadu 636005.</p>
+<br>
+    <b>Contact Us:</b></address>
+
+    <a href="tel://+91 427 4099802"target="blank"><img src="D:\web\LOGO/the.jpeg"width="35px" height="35px"></a>
+    <a href="https://instagram.com/sonacascs?utm_medium=copy_link"target="blank"><img src="D:\web\LOGO/in.jpeg"width="35px" height="35px"></a>
+    <a href="https://www.facebook.com/sonaartscollege/?ti=as"target="blank"><img src="D:\web\LOGO/fb.jpeg"width="35px" height="35px"></a>
+    <a href="https://twitter.com/sonaartscollege"target="blank"><img src="D:\web\LOGO/th.jpeg"width="35px" height="35px"></a>
+</div>
+    </div>
+    <br>
+    <br>
+    <div id="frame">
+    <map>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15628.89798546118!2d78.126444!3d11.678496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d68c6abc2bb5fdf!2sSona%20College%20of%20Arts%20and%20Science!5e0!3m2!1sen!2sin!4v1647673131058!5m2!1sen!2sin" 
+        width="390"
+         height="200"
+          style="border: 3px;;" 
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+    </map>
+    <video width="360" controls>
+        <source src="D:\web\LOGO/1659425806347.mp4">
+    </video>
+</div>
+</body>
+</html>
